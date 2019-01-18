@@ -5,10 +5,27 @@
  */
 package Classes;
 
+import Biblioteques.Auxiliar;
+
 /**
  *
  * @author Jose
  */
 public class Tickets {
+    /**TIPUS TICKETS*/
+    /*
+    General
+        Adult
+        Xiquet
+        Visitant
+        Nadó
+    Express
+    Tickets número viatjes    
+    */
+    private int id_producte;
+    private String data_compra;
+    private String tipus;
+    private String viatjes = null;
+    
     
 }

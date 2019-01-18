@@ -5,10 +5,13 @@
  */
 package Biblioteques;
 
+import java.util.ArrayList;
+import Classes.Tickets;
 /**
  *
  * @author Jose
  */
 public class Arrays {
+    public static ArrayList<Tickets> arrayTickets = new ArrayList<Tickets>();
     
 }
