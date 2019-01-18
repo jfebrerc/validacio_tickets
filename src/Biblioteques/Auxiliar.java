@@ -23,5 +23,6 @@ public class Auxiliar {
         String currentTime = df.format(now);
         return currentTime;
     }
+        
     
 }

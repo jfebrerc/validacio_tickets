@@ -9,13 +9,20 @@ package main;
  *
  * @author Jose
  */
+import Biblioteques.IO;
+import java.util.Scanner;
 public class main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("patata");
+        final String VERSIO = "0.01";
+        IO.imprimirTI("Iniciant el supersistema de validació de ticket " + VERSIO);
+        Scanner sc = new Scanner(System.in);
+        while (sc.hasNextLine()){
+            String id_lector = sc.nextLine();
+        }
     }
     
 }
