@@ -15,13 +15,25 @@ import java.util.TimeZone;
  * @author Jose
  */
 public class Auxiliar {
-        public static String dataActual(){
+    public static String dataActual(){
         TimeZone tz = TimeZone.getTimeZone("CET"); // or PST, MID, etc ...
         Date now = new Date();
         DateFormat df = new SimpleDateFormat("dd/MM/yyyy kk:mm:ss");
         df.setTimeZone(tz);
         String currentTime = df.format(now);
         return currentTime;
+    }
+    public static boolean validar_data(String data){
+        //DateFormat formatter = new SimpleDateFormat("yyyy-MM-DD"); 
+        try{
+            Date data_ticket=new SimpleDateFormat("dd/MM/yyyy").parse(data);
+            if(){
+                
+            }
+        }catch (Exception e){
+            
+        }
+        
     }
         
     
