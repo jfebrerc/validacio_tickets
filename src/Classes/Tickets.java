@@ -27,5 +27,38 @@ public class Tickets {
     private String tipus;
     private String viatjes = null;
     
+    public int getId_producte(){
+        return id_producte;
+    }
+    
+    public String getData_compra(){
+        return data_compra;
+    }
+    
+    public String getTipus(){
+        return tipus;
+    }
+    
+    public String getViatjes() {
+        return viatjes;
+    }
+    
+    public void setId_producte(int IdP){
+        id_producte = IdP;
+    }
+    
+    public void setData_compra(String dataC){
+        data_compra = dataC;
+    }
+    
+    public void setTipus(String Tp){
+        tipus = Tp;
+    }
+
+    public void setViatjes(String viatjes) {
+        this.viatjes = viatjes;
+    }
+    
+    
     
 }
