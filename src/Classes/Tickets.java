@@ -15,12 +15,16 @@ public class Tickets {
     /**TIPUS TICKETS*/
     /*
     General
-        Adult
-        Xiquet
-        Visitant
-        Nadó
-    Express
-    Tickets número viatjes
+        Adult               --> ticket_general_adult
+        Xiquet              --> ticket_general_xiquet
+        Visitant            --> ticket_general_visitant
+        Nadó                --> ticket_general_nado
+    Express                 --> ticket_express
+        Adult               --> ticket_express_adult
+        Xiquet              --> ticket_express_xiquet
+    Tickets número viatjes  --> ticket_numero_viatjes
+        Adult               --> ticket_viatjes_adult
+        Xiquet              --> ticket_viatjes_xiquet
     */
     private int id_producte;
     private String data_compra;
