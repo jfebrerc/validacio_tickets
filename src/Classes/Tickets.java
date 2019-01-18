@@ -25,7 +25,7 @@ public class Tickets {
     private int id_producte;
     private String data_compra;
     private String tipus;
-    private String viatjes = null;
+    private String viatjes;
 
     public int getId_producte(){
         return id_producte;
